@@ -1,0 +1,41 @@
+.container {
+    background-color: rgb(224, 224, 224);
+    font-family: 'vazir';
+}
+
+.menu {
+    margin: 2em 0;
+    padding: 1em 0;
+}
+
+.menu ul {
+    display: contents;
+}
+
+.enter-register {
+    margin: 1em;
+    padding: 1em 1em 1em 0;
+    background-color: aliceblue;
+    border-radius: 6px;
+}
+
+.enter {
+    padding-left: 1em;
+}
+
+.register {
+    padding: inherit;
+    background-color: cornflowerblue;
+    color: aliceblue;
+    border-radius: inherit;
+    padding-left: 1em;
+}
+
+.illu {
+    margin-right: 3em;
+}
+
+.card li {
+    background-color: rgb(224, 224, 224);
+    border: none;
+}
