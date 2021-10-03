@@ -1,5 +1,5 @@
 .container {
-    background-color: rgb(224, 224, 224);
+    background-color: rgb(255, 255, 255);
     font-family: 'vazir';
 }
 
@@ -38,4 +38,20 @@
 .card li {
     background-color: rgb(224, 224, 224);
     border: none;
+}
+
+.trust {
+    text-align: center;
+}
+
+.card1 {
+    text-align: right;
+    padding: 1em;
+    margin: 1em;
+}
+
+.card1:hover {
+    background-color: rgb(190 239 233 / 37%);
+    /* border: 1px solid rgb(114 143 153); */
+    box-shadow: 5px 5px 5px rgb(147 148 161);
 }
