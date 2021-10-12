@@ -1,63 +1,93 @@
-.container {
-    background-color: rgb(255, 255, 255);
-    font-family: 'vazir';
-}
-
-.menu {
-    margin: 2em 0;
-    padding: 1em 0;
-}
-
-.menu ul {
-    display: contents;
-}
-
-.enter-register {
-    margin: 1em;
-    padding: 1em 1em 1em 0;
-    background-color: aliceblue;
-    border-radius: 6px;
-}
-
-.enter {
-    padding-left: 1em;
-}
-
-.register {
-    padding: inherit;
-    background-color: cornflowerblue;
-    color: aliceblue;
-    border-radius: inherit;
-    padding-left: 1em;
-}
-
-.illu {
-    max-width: 90%;
-    margin-bottom: 3em;
-    text-align: center;
-}
-
-.card {
-    background-color: rgb(239 239 250);
-    border: none;
-}
-
-.trust {
-    text-align: center;
-}
-
-.card1 {
-    text-align: right;
-    padding: 1em;
-    margin: 1em;
-}
-
-.card1:hover {
-    background-color: rgb(190 239 233 / 37%);
-    /* border: 1px solid rgb(114 143 153); */
-    box-shadow: 5px 5px 5px rgb(147 148 161);
-}
-
-.camp h2 {
-    margin-top: 1em;
-}
+  .container {
+      background-color: rgb(255, 255, 255);
+      font-family: 'vazir';
+  }
+  
+  .f1 {
+      display: flex;
+      flex-flow: row wrap;
+      flex: 1 1 0;
+      margin: auto;
+      align-items: baseline;
+  }
+  
+  .menu {
+      margin: 2em 0;
+      padding: 1em 0;
+  }
+  
+  .menu ul {
+      display: contents;
+  }
+  
+  .enter-register {
+      margin: 1em;
+      padding: 1em 1em 1em 0;
+      background-color: aliceblue;
+      border-radius: 6px;
+  }
+  
+  .enter {
+      padding-left: 1em;
+  }
+  
+  .register {
+      padding: inherit;
+      background-color: cornflowerblue;
+      color: aliceblue;
+      border-radius: inherit;
+      padding-left: 1em;
+  }
+  
+  .illu {
+      max-width: 90%;
+      margin-bottom: 3em;
+      text-align: center;
+  }
+  
+  .card {
+      background-color: rgb(239 239 250);
+      border: none;
+  }
+  
+  .trust {
+      text-align: center;
+  }
+  
+  .card1 {
+      text-align: right;
+      padding: 1em;
+      margin: 1em;
+      display: flex;
+      flex-flow: column;
+      /* align-items: center; */
+      flex: 1 1 0;
+      transition: transform 1s ease, scale 1s ease, box-shadow 1s ease;
+  }
+  
+  .card1:hover {
+      background-color: rgb(190 239 233 / 37%);
+      transition: transform 1s ease, scale 1s ease, box-shadow 1s ease;
+      box-shadow: 5px 5px 5px rgb(147 148 161);
+      transform: rotate(-3deg);
+  }
+  
+  .camp {
+      display: flex;
+      flex-flow: column;
+      align-items: flex-start;
+  }
+  
+  .camp .row {
+      flex-flow: row wrap;
+  }
+  
+  .camp .row2 {
+      flex-flow: row-reverse wrap;
+  }
+  
+  .camp .col-md-6 {
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+  }
